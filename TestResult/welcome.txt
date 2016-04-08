@@ -1,0 +1,11 @@
+2016-03-26 11:03:28: module-init 真机启动成功
+2016-03-26 11:03:33: module-welcome 控件experienceButton未找到
+Traceback (most recent call last):
+  File "/Users/xuwen1/PycharmProjects/iMasterAndroid/Elements/cappElements/welcomeElements.py", line 12, in experienceButton
+    el = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((By.XPATH, Data.getXpath('welcome', 'welcome', 'experienceButton', 1))))
+  File "/Library/Python/2.7/site-packages/selenium-2.47.1-py2.7.egg/selenium/webdriver/support/wait.py", line 76, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+2016-03-26 11:03:33: module-welcome 未显示欢迎页面

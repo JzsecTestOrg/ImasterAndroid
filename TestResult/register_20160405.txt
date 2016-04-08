@@ -1,0 +1,32 @@
+2016-04-05 02:16:08: module-init 真机启动成功
+2016-04-05 02:16:13: module-welcome 控件experienceButton未找到
+Traceback (most recent call last):
+  File "/Users/xuwen1/PycharmProjects/iMasterAndroid/Elements/cappElements/welcomeElements.py", line 12, in experienceButton
+    el = WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((By.XPATH, Data.getXpath('welcome', 'welcome', 'experienceButton', 1))))
+  File "/Library/Python/2.7/site-packages/selenium-2.47.1-py2.7.egg/selenium/webdriver/support/wait.py", line 76, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+2016-04-05 02:16:13: module-welcome 未显示欢迎页面
+2016-04-05 02:16:13: module-register 手机号15501253283 未注册
+2016-04-05 02:16:49: module-register 点击进入个人中心
+2016-04-05 02:16:50: module-register 点击进入登录页面
+2016-04-05 02:16:52: module-register 登录页面点击‘快速注册’
+2016-04-05 02:16:53: module-register 快速注册页面正确显示
+2016-04-05 02:17:03: module-register 验证码发送中...
+2016-04-05 02:17:04: module-register 验证码发送过程发送验证码按钮文案显示正确
+2016-04-05 02:18:04: module-register 等待60s
+2016-04-05 02:18:04: module-register 验证码发送完成60s后发送验证码按钮文案显示正确：发送验证码
+2016-04-05 02:18:06: module-register 清除redis验证码缓存
+2016-04-05 02:18:07: module-register 验证码发送中...
+2016-04-05 02:18:17: module-register 验证码发送成功！
+2016-04-05 02:18:17: module-register 不对密码进行校验
+2016-04-05 02:18:17: module-register 不对密码明暗文进行校验
+2016-04-05 02:18:17: module-register 不对昵称进行校验
+2016-04-05 02:18:17: module-register 不对投资大师注册协议勾选进行校验
+2016-04-05 02:18:17: module-register 不对投资大师注册协议内容校验
+2016-04-05 02:18:17: module-register 不对点击注册进行校验
+2016-04-05 02:18:19: module-register 注册页面点击返回按钮
+2016-04-05 02:18:21: module-register 登录页面点击返回按钮
+2016-04-05 02:18:22: module-register 个人中心点击返回按钮
